@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidates - Class Voting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Meet the Candidates</h2>
+        <div class="candidate-grid">
+            <div class="candidate-card">
+                <img src="images/Sourabh.jpg" alt="Sourabh Kumar">
+                <h3>Sourabh Kumar</h3>
+                <p>Passionate about making a difference and committed to addressing student needs.</p>
+                <button onclick="vote('Sourabh Kumar')">Vote for Sourabh</button>
+            </div>
+            <div class="candidate-card">
+                <img src="images/Divyesh.jpg" alt="Divyesh Parmar">
+                <h3>Divyesh Parmar</h3>
+                <p>Bringing new ideas to the table, with a vision for a better class environment.</p>
+                <button onclick="vote('Divyesh Parmar')">Vote for Divyesh</button>
+            </div>
+            <div class="candidate-card">
+                <img src="images/Het.jpg" alt="Het Patel">
+                <h3>Het Patel</h3>
+                <p>Dedicated to students' success and creating an inclusive community.</p><br>
+                <button onclick="vote('Het Patel')">Vote for Het</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function vote(candidate) {
+            alert("You have voted for " + candidate + "!");
+        }
+    </script>
+</body>
+</html>
